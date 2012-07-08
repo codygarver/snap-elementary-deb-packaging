@@ -1,4 +1,4 @@
-Source: snap-webcam-viewer
+Source: snap-photobooth
 Section: x11
 Priority: extra
 Maintainer: Mario Guerriero <mefrio.g@gmail.com>
@@ -13,7 +13,7 @@ Build-Depends: cmake,
 Standards-Version: 3.9.1
 Homepage: http://launchpad.net/snap
 
-Package: snap-webcam-viewer
+Package: snap-photobooth
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Pre-Depends: dpkg (>= 1.15.6)
@@ -24,6 +24,6 @@ Description: Snap webcam viewer
 
 Package: snap
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, snap-webcam-viewer
-Description: Transitional package for snap-webcam-viewer
- This is a transitional package for snap-webcam-viewer, and can be safely removed after the installation is complete.
+Depends: ${shlibs:Depends}, ${misc:Depends}, snap-photobooth
+Description: Transitional package for snap-photobooth
+ This is a transitional package for snap-photobooth, and can be safely removed after the installation is complete.
