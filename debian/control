@@ -1,4 +1,4 @@
-Source: snap
+Source: snap-webcam-viewer
 Section: x11
 Priority: extra
 Maintainer: Mario Guerriero <mefrio.g@gmail.com>
@@ -13,9 +13,9 @@ Build-Depends: cmake,
 Standards-Version: 3.9.1
 Homepage: http://launchpad.net/snap
 
-Package: snap
+Package: snap-webcam-viewer
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Pre-Depends: dpkg (>= 1.15.6)
 Description: Snap webcam viewer
- Get your photos and videos from your webcam in elementary style
+ Capture photos and videos using your webcam in elementary style.
