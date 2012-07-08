@@ -17,5 +17,7 @@ Package: snap-webcam-viewer
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Pre-Depends: dpkg (>= 1.15.6)
+Replaces: snap
+Conflicts: snap
 Description: Snap webcam viewer
  Capture photos and videos using your webcam in elementary style.
