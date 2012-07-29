@@ -1,4 +1,5 @@
 Source: snap-photobooth
+Section: x11
 Maintainer: Mario Guerriero <mefrio.g@gmail.com>
 Build-Depends: cmake,
                debhelper (>= 7),
@@ -13,7 +14,6 @@ Homepage: http://launchpad.net/snap-elementary
 
 Package: snap-photobooth
 Architecture: any
-Section: x11
 Priority: extra
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Pre-Depends: dpkg (>= 1.15.6)
@@ -23,7 +23,6 @@ Description: Snap webcam viewer
 
 Package: snap
 Architecture: any
-Section: x11
 Priority: extra
 Depends: snap-photobooth, ${misc:Depends}
 Pre-Depends: dpkg (>= 1.15.6)
