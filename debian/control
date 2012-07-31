@@ -3,6 +3,9 @@ Section: x11
 Maintainer: Mario Guerriero <mefrio.g@gmail.com>
 Build-Depends: cmake,
                debhelper (>= 7.0.50~),
+               libcheese-gtk-dev,
+               libclutter-1.0-dev,
+               libclutter-gtk-1.0-dev,
                libgnome-desktop-3-dev,
                libgranite-dev,
                libgstreamer-plugins-base0.10-dev,
