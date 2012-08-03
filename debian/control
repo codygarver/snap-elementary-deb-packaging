@@ -24,7 +24,7 @@ Replaces: snap
 Description: Snap webcam viewer
  Capture photos and videos using your webcam in elementary style.
 
-Package: snap
+Package: snap-photobooth
 Architecture: any
 Priority: extra
 Depends: snap-photobooth, ${misc:Depends}
