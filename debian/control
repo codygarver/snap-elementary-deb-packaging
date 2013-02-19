@@ -22,6 +22,7 @@ Priority: extra
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Pre-Depends: dpkg (>= 1.15.6)
 Replaces: snap
+Recommends: gnome-video-effects
 Description: Snap webcam viewer
  Capture photos and videos using your webcam in elementary style.
 
