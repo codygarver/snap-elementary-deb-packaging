@@ -11,8 +11,8 @@ Build-Depends: cmake,
                libgranite-dev,
                libgstreamer1.0-dev,
                libgtk-3-dev,
-               valac-0.16 | valac (>= 0.16)
-Standards-Version: 3.9.3
+               valac-0.18 | valac (>= 0.18)
+Standards-Version: 3.9.4
 Homepage: http://launchpad.net/snap-elementary
 
 Package: snap-photobooth
