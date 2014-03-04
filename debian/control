@@ -11,7 +11,7 @@ Build-Depends: cmake,
                libgudev-1.0-dev,
                libzeitgeist-2.0-dev,
                valac (>= 0.22)
-Standards-Version: 3.9.4
+Standards-Version: 3.9.5
 Homepage: http://launchpad.net/snap-elementary
 
 Package: snap-photobooth
@@ -23,15 +23,6 @@ Replaces: snap
 Recommends: gnome-video-effects
 Description: Snap webcam viewer
  Capture photos and videos using your webcam in elementary style.
-
-Package: snap
-Architecture: any
-Priority: extra
-Depends: snap-photobooth, ${misc:Depends}
-Pre-Depends: dpkg (>= 1.15.6)
-Description: Transitional package for snap-photobooth
- This is a transitional package for snap-photobooth, and can be safely removed
- after the installation is complete.
 
 Package: snap-photobooth-dbg
 Architecture: any

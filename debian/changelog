@@ -1,4 +1,10 @@
-snap-photobooth (0.1) oneiric; urgency=low
+snap-photobooth (0.2) unstable; urgency=low
+
+  * Now using Gee-0.8
+
+ -- Corentin Noël <tintou@mailoo.org>  Tue, 04 Mar 2014 13:18:30 +0100
+
+snap-photobooth (0.1) unstable; urgency=low
 
   * Initial Release
 
