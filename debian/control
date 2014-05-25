@@ -5,12 +5,13 @@ Build-Depends: cmake,
                debhelper (>= 9),
                libgnome-desktop-3-dev,
                libgranite-dev,
-               libgstreamer1.0-dev,
-               libgstreamer-plugins-base1.0-dev,
+               libgstreamer0.10-dev,
+               libgstreamer-plugins-base0.10-dev,
                libgtk-3-dev (>= 3.10),
                libgudev-1.0-dev,
                libzeitgeist-2.0-dev,
-               valac (>= 0.22)
+               valac (>= 0.22),
+               ffmpegthumbnailer
 Standards-Version: 3.9.5
 Homepage: http://launchpad.net/snap-elementary
 
