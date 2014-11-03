@@ -1,0 +1,27 @@
+--- a/src/Snap.vala
++++ b/src/Snap.vala
+@@ -31,7 +31,7 @@
+         public const string CAMERA = N_("Camera");
+         public const string COMMENT = N_("Take photos and videos with the camera");
+         public const string GENERIC_NAME = N_("Photo Booth");
+-        public const string PROGRAM_NAME = "Snap";
++        public const string PROGRAM_NAME = CAMERA;
+         public const string QUICKLIST_ABOUT_STOCK = N_("About Snap");
+         public const string QUICKLIST_ABOUT_GENERIC = N_("About Camera");
+ 
+--- a/data/snap-photobooth.desktop
++++ b/data/snap-photobooth.desktop
+@@ -1,6 +1,6 @@
+ [Desktop Entry]
+ Type=Application
+-Name=Snap
++Name=Camera
+ Comment=Take photos and videos with the camera
+ GenericName=Photo Booth
+ Exec=snap-photobooth
+@@ -14,4 +14,4 @@
+ 
+ [Desktop Action AboutDialog]
+ Exec=snap-photobooth --about
+-Name=About Snap
++Name=About Camera
