@@ -1,3 +1,9 @@
+snap-photobooth (0.2.0.1) trusty; urgency=medium
+
+  * Release 0.2.0.1
+
+ -- Cody Garver <cody@elementary.io>  Wed, 09 Dec 2015 12:42:56 -0600
+
 snap-photobooth (0.2) unstable; urgency=low
 
   * Now using Gee-0.8
