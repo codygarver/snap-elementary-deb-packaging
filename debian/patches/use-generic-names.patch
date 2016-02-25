@@ -1,13 +1,13 @@
---- a/src/Snap.vala
-+++ b/src/Snap.vala
+--- a/src/Application.vala
++++ b/src/Application.vala
 @@ -31,7 +31,7 @@
-         public const string CAMERA = N_("Camera");
-         public const string COMMENT = N_("Take photos and videos with the camera");
-         public const string GENERIC_NAME = N_("Photo Booth");
--        public const string PROGRAM_NAME = "Snap";
-+        public const string PROGRAM_NAME = CAMERA;
-         public const string QUICKLIST_ABOUT_STOCK = N_("About Snap");
-         public const string QUICKLIST_ABOUT_GENERIC = N_("About Camera");
+     public static const string CAMERA = N_("Camera");
+     public static const string COMMENT = N_("Take photos and videos with the camera");
+     public static const string GENERIC_NAME = N_("Photo Booth");
+-    public static const string PROGRAM_NAME = "Snap";
++    public static const string PROGRAM_NAME = CAMERA;
+     public static const string QUICKLIST_ABOUT_STOCK = N_("About Snap");
+     public static const string QUICKLIST_ABOUT_GENERIC = N_("About Camera");
  
 --- a/data/snap-photobooth.desktop
 +++ b/data/snap-photobooth.desktop
