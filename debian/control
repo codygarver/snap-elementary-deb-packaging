@@ -3,6 +3,7 @@ Section: x11
 Maintainer: Mario Guerriero <mefrio.g@gmail.com>
 Build-Depends: cmake,
                debhelper (>= 9),
+               intltool,
                libclutter-gtk-1.0-dev,
                libclutter-gst-3.0-dev,
                libgnome-desktop-3-dev,
