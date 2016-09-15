@@ -1,5 +1,5 @@
 /usr/bin/snap-photobooth
 /usr/share/appdata
-/usr/share/applications/snap-photobooth.desktop
+/usr/share/applications/org.pantheon.snap.desktop
 /usr/share/glib-2.0/schemas/*
 /usr/share/locale/*
